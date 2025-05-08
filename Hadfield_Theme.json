@@ -1,0 +1,74 @@
+{
+    "name": "Hadfield Dark",
+    "type": "dark",
+    "colors": {
+        "activityBar.background": "#1a1a1a",
+        "activityBar.foreground": "#ffffff",
+        "activityBar.inactiveForeground": "#666666",
+        "activityBarBadge.background": "#007acc",
+        "activityBarBadge.foreground": "#ffffff",
+        "editor.background": "#1e1e1e",
+        "editor.foreground": "#d4d4d4",
+        "editor.lineHighlightBackground": "#2a2d2e",
+        "editor.selectionBackground": "#264f78",
+        "editorCursor.foreground": "#ffffff",
+        "sideBar.background": "#252526",
+        "sideBar.foreground": "#cccccc",
+        "sideBarTitle.foreground": "#cccccc",
+        "statusBar.background": "#007acc",
+        "statusBar.foreground": "#ffffff",
+        "titleBar.activeBackground": "#1e1e1e",
+        "titleBar.activeForeground": "#cccccc"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "foreground": "#6A9955"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": ["keyword", "storage.type", "storage.modifier"],
+            "settings": {
+                "foreground": "#569CD6"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": ["string", "string.quoted"],
+            "settings": {
+                "foreground": "#CE9178"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": ["entity.name.function", "support.function"],
+            "settings": {
+                "foreground": "#DCDCAA"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": ["variable", "variable.other"],
+            "settings": {
+                "foreground": "#9CDCFE"
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": ["constant.numeric"],
+            "settings": {
+                "foreground": "#B5CEA8"
+            }
+        },
+        {
+            "name": "Types",
+            "scope": ["entity.name.type", "support.type"],
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        }
+    ]
+} 

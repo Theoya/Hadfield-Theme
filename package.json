@@ -1,0 +1,19 @@
+{
+    "name": "hadfield-theme",
+    "displayName": "Hadfield Theme",
+    "description": "A custom dark theme",
+    "version": "0.0.1",
+    "publisher": "your-name",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "contributes": {
+      "themes": [
+        {
+          "label": "Hadfield Dark",
+          "uiTheme": "vs-dark",
+          "path": "./Hadfield_Theme.json"
+        }
+      ]
+    }
+  }
