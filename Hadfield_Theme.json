@@ -2,22 +2,22 @@
     "name": "Hadfield Dark",
     "type": "dark",
     "colors": {
-        "activityBar.background": "#1a1a1a",
+        "activityBar.background": "#2C1B12",
         "activityBar.foreground": "#ffffff",
         "activityBar.inactiveForeground": "#666666",
         "activityBarBadge.background": "#007acc",
         "activityBarBadge.foreground": "#ffffff",
-        "editor.background": "#1e1e1e",
+        "editor.background": "#2C1B12",
         "editor.foreground": "#d4d4d4",
-        "editor.lineHighlightBackground": "#2a2d2e",
+        "editor.lineHighlightBackground": "#4D3A2F",
         "editor.selectionBackground": "#264f78",
         "editorCursor.foreground": "#ffffff",
-        "sideBar.background": "#252526",
+        "sideBar.background": "#2C1B12",
         "sideBar.foreground": "#cccccc",
         "sideBarTitle.foreground": "#cccccc",
         "statusBar.background": "#007acc",
         "statusBar.foreground": "#ffffff",
-        "titleBar.activeBackground": "#1e1e1e",
+        "titleBar.activeBackground": "#3D2A1F",
         "titleBar.activeForeground": "#cccccc"
     },
     "tokenColors": [
@@ -39,7 +39,7 @@
             "name": "Strings",
             "scope": ["string", "string.quoted"],
             "settings": {
-                "foreground": "#CE9178"
+                "foreground": "#B57EDC"
             }
         },
         {
@@ -53,7 +53,7 @@
             "name": "Variables",
             "scope": ["variable", "variable.other"],
             "settings": {
-                "foreground": "#9CDCFE"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -68,6 +68,27 @@
             "scope": ["entity.name.type", "support.type"],
             "settings": {
                 "foreground": "#4EC9B0"
+            }
+        },
+        {
+            "name": "Classes",
+            "scope": ["entity.name.class", "support.class"],
+            "settings": {
+                "foreground": "#FFD700"
+            }
+        },
+        {
+            "name": "Braces (Curly)",
+            "scope": ["punctuation.definition.block", "punctuation.section.block.begin", "punctuation.section.block.end"],
+            "settings": {
+                "foreground": "#89CFF0"
+            }
+        },
+        {
+            "name": "Braces (Round/Square)",
+            "scope": ["punctuation.section.parens.begin", "punctuation.section.parens.end", "punctuation.section.brackets.begin", "punctuation.section.brackets.end"],
+            "settings": {
+                "foreground": "#B2FBA5"
             }
         }
     ]
