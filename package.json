@@ -5,15 +5,18 @@
     "version": "0.0.1",
     "publisher": "your-name",
     "engines": {
-      "vscode": "^1.50.0"
+        "vscode": "^1.50.0"
     },
     "contributes": {
-      "themes": [
-        {
-          "label": "Hadfield Dark",
-          "uiTheme": "vs-dark",
-          "path": "./Hadfield_Theme.json"
-        }
-      ]
+        "themes": [
+            {
+                "label": "Hadfield Dark",
+                "uiTheme": "vs-dark",
+                "path": "./Hadfield_Theme.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^2.15.0"
     }
-  }
+}
