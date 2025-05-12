@@ -2,22 +2,22 @@
     "name": "Hadfield Dark",
     "type": "dark",
     "colors": {
-        "activityBar.background": "#2C1B12",
+        "activityBar.background": "#2A2520",
         "activityBar.foreground": "#ffffff",
         "activityBar.inactiveForeground": "#666666",
         "activityBarBadge.background": "#007acc",
         "activityBarBadge.foreground": "#ffffff",
-        "editor.background": "#2C1B12",
+        "editor.background": "#2A2520",
         "editor.foreground": "#d4d4d4",
-        "editor.lineHighlightBackground": "#4D3A2F",
+        "editor.lineHighlightBackground": "#3A3530",
         "editor.selectionBackground": "#264f78",
         "editorCursor.foreground": "#ffffff",
-        "sideBar.background": "#2C1B12",
+        "sideBar.background": "#2A2520",
         "sideBar.foreground": "#cccccc",
         "sideBarTitle.foreground": "#cccccc",
         "statusBar.background": "#007acc",
         "statusBar.foreground": "#ffffff",
-        "titleBar.activeBackground": "#3D2A1F",
+        "titleBar.activeBackground": "#3A3530",
         "titleBar.activeForeground": "#cccccc"
     },
     "tokenColors": [
@@ -25,7 +25,7 @@
             "name": "Comments",
             "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
-                "foreground": "#6A9955"
+                "foreground": "#FFA500"
             }
         },
         {
@@ -46,7 +46,7 @@
             "name": "Functions",
             "scope": ["entity.name.function", "support.function"],
             "settings": {
-                "foreground": "#DCDCAA"
+                "foreground": "#00FFFF"
             }
         },
         {
@@ -74,7 +74,28 @@
             "name": "Classes",
             "scope": ["entity.name.class", "support.class"],
             "settings": {
-                "foreground": "#FFD700"
+                "foreground": "#B19CD9"
+            }
+        },
+        {
+            "name": "Structs and Objects",
+            "scope": ["entity.name.struct", "entity.name.type", "entity.name.type.interface"],
+            "settings": {
+                "foreground": "#98C379"
+            }
+        },
+        {
+            "name": "Lists and Collections",
+            "scope": [
+                "entity.name.type.array",
+                "entity.name.type.list",
+                "entity.name.type.collection",
+                "entity.name.type.dictionary",
+                "entity.name.type.map",
+                "entity.name.type.set"
+            ],
+            "settings": {
+                "foreground": "#D8BFD8"
             }
         },
         {
